@@ -9,32 +9,48 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <div class="main">
-        <div class="left">
-            <nav>
+        <nav>
+            <div class="smallNav">
+                <div class="rightSection">
+                    <div class="hamburger">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </div>
+                    <div class="logo"><img src="static/icons/logo.png" alt=""></div>
+                    
+                </div>
+                <div class="leftSection">
+                    <div><button class="signUp">Sign Up</button></div>
+                    <div><button class="logIn">Log In</button></div>
+                </div>
+            </div>
+            <div class="left">
                 <div class="logo"><img src="static/icons/logo.png" alt=""></div>
                 <div class="icons">
-                    <div class="icon">
+                    <div class="icon" id="PlayIcon">
                         <img src="/static/icons/play.png" alt=""><a href="">Play</a>
                     </div>
-                    <div class="icon">
+                    <div class="icon" id="PuzzlesIcon">
                         <img src="/static/icons/puzzles.png" alt=""><a href="">Puzzles</a>
                     </div>
-                    <div class="icon">
+                    <div class="icon" id="LearnIcon">
                         <img src="/static/icons/learn.png" alt=""><a href="">Learn</a>
                     </div>
-                    <div class="icon">
+                    <div class="icon" id="WatchIcon">
                         <img src="/static/icons/watch.png" alt=""><a href="">Watch</a>
                     </div>
-                    <div class="icon">
+                    <div class="icon" id="NewsIcon">
                         <img src="/static/icons/news.png" alt=""><a href="">News</a>
                     </div>
-                    <div class="icon">
+                    <div class="icon" id="SocialIcon">
                         <img src="/static/icons/social.png" alt=""><a href="">Social</a>
                     </div>
-                    <div class="icon">
+                    <div class="icon" id="MoreIcon">
                         <img src="/static/icons/more.png" alt=""><a href="">More</a>
                     </div>
                 </div>
@@ -46,12 +62,218 @@
                 <div><button class="logIn">Log In</button></div>
                 
                 <div class="bottomIcons"></div>
-            </nav>
-           
-        </div>
-        <div class="hero">
+            </div>
 
+            <div class="wrapper play-wrapper">
+                    <ul>
+                        <li><img src="static/icons/play.png" alt=""><a href="">Play</a></li>
+                        <li><img src="static/icons/computer.png" alt=""><a href="">Play Bots</a></li>
+                        <li><img src="static/icons/medal.png" alt=""><a href="">Tournament</a></li>
+                        <li><img src="static/icons/dice.png" alt=""><a href="">4 Leaders & variants</a></li>
+                        <li><img src="static/icons/leaderboard.png" alt=""><a href="">Leaderboard</a></li>
+                    </ul>
+            </div>
+
+            <div class="wrapper puzzles-wrapper">
+                <ul>
+                    <li><img src="static/icons/puzzles2.png" alt=""><a href="">Puzzles</a></li>
+                    <li><img src="static/icons/puzzlerush.png" alt=""><a href="">Puzzle Rush</a></li>
+                    <li><img src="static/icons/puzzleBattle.png" alt=""><a href="">Puzzle Battle</a></li>
+                    <li><img src="static/icons/dailyPuzzle.png" alt=""><a href="">Daily Puzzle</a></li>
+                    <li><img src="static/icons/customPrizes.png" alt=""><a href="">Custom Puzzles</a></li>
+                </ul>
+            </div>
+
+            <div class="wrapper learn-wrapper">
+                <ul>
+                    <li><img src="static/icons/learn2.png" alt=""><a href="">Lessons</a></li>
+                    <li><img src="static/icons/openings.png" alt=""><a href="">Openings</a></li>
+                    <li><img src="static/icons/lessonLibrary.png" alt=""><a href="">Lesson Library</a></li>
+                    <li><img src="static/icons/analysis.png" alt=""><a href="">Analysis</a></li>
+                    <li><img src="static/icons/classroom.png" alt=""><a href="">Classroom</a></li>
+                    <li><img src="static/icons/insights.png" alt=""><a href="">Insights</a></li>
+                    <li><img src="static/icons/endgame.png" alt=""><a href="">Endgames</a></li>
+                    <li><img src="static/icons/practice.png" alt=""><a href="">Practice</a></li>
+                    <li><img src="static/icons/aimchess.png" alt=""><a href="">Aimchess Training</a></li>
+                    <li><img src="static/icons/chessableCourse.png" alt=""><a href="">Chessable Courses</a></li>
+                </ul>
+            </div>
+
+            <div class="wrapper watch-wrapper">
+                <ul>
+                    <li><img src="static/icons/play.png" alt=""><a href="">Play</a></li>
+                    <li><img src="static/icons/computer.png" alt=""><a href="">Play Bots</a></li>
+                    <li><img src="static/icons/medal.png" alt=""><a href="">Tournament</a></li>
+                    <li><img src="static/icons/dice.png" alt=""><a href="">4 Leaders & variants</a></li>
+                    <li><img src="static/icons/leaderboard.png" alt=""><a href="">Leaderboard</a></li>
+                </ul>
+            </div>
+
+            <div class="wrapper news-wrapper">
+                <ul>
+                    <li><img src="static/icons/play.png" alt=""><a href="">Play</a></li>
+                    <li><img src="static/icons/computer.png" alt=""><a href="">Play Bots</a></li>
+                    <li><img src="static/icons/medal.png" alt=""><a href="">Tournament</a></li>
+                    <li><img src="static/icons/dice.png" alt=""><a href="">4 Leaders & variants</a></li>
+                    <li><img src="static/icons/leaderboard.png" alt=""><a href="">Leaderboard</a></li>
+                </ul>
+            </div>
+
+            <div class="wrapper social-wrapper">
+                <ul>
+                    <li><img src="static/icons/play.png" alt=""><a href="">Play</a></li>
+                    <li><img src="static/icons/computer.png" alt=""><a href="">Play Bots</a></li>
+                    <li><img src="static/icons/medal.png" alt=""><a href="">Tournament</a></li>
+                    <li><img src="static/icons/dice.png" alt=""><a href="">4 Leaders & variants</a></li>
+                    <li><img src="static/icons/leaderboard.png" alt=""><a href="">Leaderboard</a></li>
+                </ul>
+            </div>
+
+            <div class="wrapper more-wrapper">
+                <ul>
+                    <li><img src="static/icons/play.png" alt=""><a href="">Play</a></li>
+                    <li><img src="static/icons/computer.png" alt=""><a href="">Play Bots</a></li>
+                    <li><img src="static/icons/medal.png" alt=""><a href="">Tournament</a></li>
+                    <li><img src="static/icons/dice.png" alt=""><a href="">4 Leaders & variants</a></li>
+                    <li><img src="static/icons/leaderboard.png" alt=""><a href="">Leaderboard</a></li>
+                </ul>
+            </div>
+        </nav>
+        
+
+        <div class="hero">
+            <div class="header">
+                <img src="static/images/chessboard.png" alt="" class="chessboard">
+                <div class="headerBox">
+                    <h1 class="heading1">Play Chess Online on the #1 Site!</h1>
+                    <div class="info">
+                        <div class="games-played">15,083,591 <span>Games Today</span></div>
+                        <div class="games-played">194,106 <span>Playing Now</span></div>
+                    </div>
+                    <button class="btn green">
+                        <div class="btnIcon"><img src="static/icons/greenBtn.png" alt=""></div>
+                        <div class="content">
+                            <h1>Play Online</h1>
+                            <div>Play with someone at your level</div>
+                        </div>
+                    </button>
+                    <button class="btn black">
+                        <div class="btnIcon"><img src="static/icons/blackBtn.png" alt=""></div>
+                        <div class="content">
+                            <h1>Play Computer</h1>
+                            <div>Play vs customizable training bots</div>
+                        </div>
+                    </button>
+                </div>
+            </div>  
+
+            <div class="about">
+                <div class="aboutBox1">
+                    <div class="topLeft">
+                        <h1>Solve Chess Puzzles</h1>
+                        <button>Solve Puzzles</button>
+                    </div>
+                    <div class="rightImg"><img src="static/images/chess puzzles board.png" alt=""></div>
+                    <div class="bottomleft">
+                        <img src="static/images/nakamura.jpg" alt="">
+                        <div class="something">
+                            <div class="quote">"Puzzles are the best way to improve pattern recognition, and no site does it better."</div>
+                            <div class="name">                          Hikaru Nakamura</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="aboutBox2">
+                    <div class="topLeft">
+                            <h1>Take Chess Lessons</h1>
+                            <button>Solve Lessons</button>
+                    </div>
+                    <div class="rightImg"><img src="static/images/chessboard3.png" alt=""></div>
+                    <div class="bottomleft">
+                        <img src="static/images/anna.jpg" alt="">
+                        <div class="something">
+                            <div class="quote">"Chess.com lessons make it easy to learn to play, then challenge you to continue growing."</div>
+                            <div class="name">                          Anna Rudolf</div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <h1 class="Sarthak">Follow what’s happening in Chess Today.</h1>
+
+            <div class="photoGrid">
+                <div class="wrapper-grid">
+                    <div class="boxes">
+                        <img src="static/images/box1.png" alt="">
+                        <div class="content">
+                            <div class="heading">Caruana Back In 2800 Club; Canada Hold Carlsen-less Norway To Draw</div>
+                            <div class="author"> Colin_McGourty</div>
+                        </div>
+                    </div>
+
+                    <div class="boxes">
+                        <img src="static/images/box2.jpg" alt="">
+                        <div class="content">
+                            <div class="heading">Netflix Announces Carlsen-Niemann Documentary Set For 2025 Release</div>
+                            <div class="author"> TarjeiJS</div>
+                        </div>
+                    </div>
+
+                    <div class="boxes">
+                        <img src="static/images/box3.png" alt="">
+                        <div class="content">
+                            <div class="heading">Judit Polgar Meets 9-Year-Old Chess Prodigy Bodhana Sivanandan</div>
+                            <div class="author"> TarjeiJS</div>
+                        </div>
+                    </div>
+
+                    <div class="boxes">
+                        <img src="static/images/box4.png" alt="">
+                        <div class="content">
+                            <div class="heading">Rare Fourth Moves</div>
+                            <div class="author"> JanistanTV</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="chessToday">Chess Today</button>
+            <footer>
+                <div class="links">
+                    <ol>
+                        <li><a href="">Support</a></li>
+                        <li><a href="">Chess Teams</a></li>
+                        <li><a href="">about</a></li>
+                        <li><a href="">Students</a></li>
+                        <li><a href="">Jobs</a></li>
+                        <li><a href="">Developers</a></li>
+                        <li><a href="">User Agreement</a></li>
+                        <li><a href="">Privacy Policy</a></li>
+                        <li><a href="">Privacy Settings</a></li>
+                        <li><a href="">Fairplay</a></li>
+                        <li><a href="">Partners</a></li>
+                        <li><a href="">Compliance</a></li>
+                        <li><a href="">Chess.com</a></li>
+                    </ul>
+                </div>
+
+                <div class="social-links">
+                    <ul>
+                        <li><a href=""><i class="fa-brands fa-apple fa-2x"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-android fa-2x"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-tiktok fa-2x"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-x-twitter fa-2x"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-youtube fa-2x"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-twitch fa-2x"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-discord fa-2x"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-instagram fa-2x"></i></a></li>
+                    </ul>
+                </div>
+            </footer>
         </div>
+
+        
     </div>
+<script src="static/js/main.js"></script>
 </body>
 </html>
